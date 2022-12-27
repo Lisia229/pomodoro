@@ -37,6 +37,10 @@ hr {
   border: 1px solid #3a5564;
 }
 
+.justify-center {
+  justify-items: center;
+}
+
 #listimg {
   display: none;
 }
@@ -198,10 +202,21 @@ hr {
 
 #settings {
   .listtable {
+    text-align: center;
     overflow-y: scroll;
-    width: 100%;
-    height: 20px;
     margin: auto;
+    width: 100%;
+  }
+  #list1 td {
+    font-size: 25px;
+    text-shadow: 0 5px 8px rgba(25, 129, 155, 0.5);
+  }
+  #list2 td {
+    font-size: 16px;
+    text-shadow: 0 5px 8px rgba(25, 129, 155, 0.5);
+    & audio {
+      width: 150px;
+    }
   }
 }
 
@@ -254,6 +269,21 @@ hr {
       & img {
         width: 150px;
         padding-left: 2rem;
+      }
+    }
+  }
+
+  #settings {
+    #list1 td {
+      font-size: 2rem;
+      text-shadow: 0 5px 8px rgba(25, 129, 155, 0.5);
+    }
+
+    #list2 td {
+      font-size: 1.5rem;
+      text-shadow: 0 5px 8px rgba(25, 129, 155, 0.5);
+      & audio {
+        width: 250px;
       }
     }
   }
@@ -338,6 +368,21 @@ hr {
     font-size: 5rem;
     font-family: 'Bangers', cursive;
     letter-spacing: 10px;
+  }
+
+  #settings {
+    #list1 td {
+      font-size: 2rem;
+      text-shadow: 0 5px 8px rgba(25, 129, 155, 0.5);
+    }
+
+    #list2 td {
+      font-size: 1.5rem;
+      text-shadow: 0 5px 8px rgba(25, 129, 155, 0.5);
+      & audio {
+        width: 300px;
+      }
+    }
   }
 }
 

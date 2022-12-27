@@ -12,7 +12,7 @@ export const useSettingsStore = defineStore({
         { id: 3, name: 'AllGo', file: new URL('@/assets/Allgo.mp3', import.meta.url).href },
         { id: 4, name: 'DontSay', file: new URL('@/assets/DontSay.mp3', import.meta.url).href },
         { id: 5, name: 'Honne', file: new URL('@/assets/Honne.mp3', import.meta.url).href },
-        { id: 6, name: 'Imissyousomuch', file: new URL('@/assets/Imissyou.mp3', import.meta.url).href },
+        { id: 6, name: 'missyou', file: new URL('@/assets/Imissyou.mp3', import.meta.url).href },
         { id: 7, name: 'Paris', file: new URL('@/assets/Paris.mp3', import.meta.url).href },
         { id: 8, name: 'Runaway', file: new URL('@/assets/Runaway.mp3', import.meta.url).href },
         { id: 9, name: 'Withoutyou', file: new URL('@/assets/Withoutyou.mp3', import.meta.url).href }

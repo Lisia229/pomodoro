@@ -4,16 +4,16 @@ v-row#settings
     h1.text-center RINGTONES
   v-col(cols="12")
     table.listtable
-      tr
-        td Clock's Name
+      tr#list1
+        td Name
         td Listen
         td Choose
-      tr(v-for="alarm in alarms" :key="alarm.id" height="100px")
+      tr#list2(v-for="alarm in alarms" :key="alarm.id" height="100px")
         td {{ alarm.name }}
         td
           audio(:src="alarm.file" controls)
         td
-          v-radio-group(v-model="selectedAlarms" )
+          v-radio-group(v-model="selectedAlarms" class="justify-center")
             v-radio(:value="alarm.id" color="#1c2950")
 </template>
 
