@@ -10,6 +10,7 @@ v-app#app.typing-txt-block.bg-animation
     v-btn.homebtn(icon="mdi-cog" variant="text" to="/settings")
     v-btn.homebtn(:icon="notify ? 'mdi-bell' : 'mdi-bell-off'" variant="text" @click="toggleNotify")
   v-main
+    img#kabo(src="./assets/k5IcoJB-unscreen.gif")
     v-container
       router-view(v-slot="{ Component }")
         //- 換頁保留元件不被銷毀

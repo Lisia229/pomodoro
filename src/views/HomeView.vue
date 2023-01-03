@@ -1,4 +1,5 @@
 <template lang="pug">
+//- img#shape(src="../assets/123283-shape-animation-unscreen.gif")
 v-row#home
   v-col.col1(cols="12" lg="6")
     h1.text-center.hometitle TO DO NOW

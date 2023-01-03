@@ -20,12 +20,28 @@ body {
   cursor: url('../assets/athcv-flrxk-001.ico'), -moz-zoom-out;
   cursor: url('../assets/athcv-flrxk-001.ico'), auto;
   cursor: url('../assets/athcv-flrxk-001.ico'), pointer;
+  position: relative;
 }
 
 a:hover {
   cursor: url('../assets/a2fui-wowal-001.ico'), -moz-zoom-out;
   cursor: url('../assets/a2fui-wowal-001.ico'), auto;
   cursor: url('../assets/a2fui-wowal-001.ico'), pointer;
+}
+
+#shape{
+  position: absolute;
+  top: 10%;
+  left: 10%;
+  width: 100px;
+}
+
+#kabo {
+  width: 200px;
+  position: fixed;
+  right: 0;
+  bottom: 0;
+  display: none;
 }
 
 .row {
@@ -230,6 +246,17 @@ hr {
 }
 
 @media (min-width: 554px) {
+
+  // #shape{
+  //   position: absolute;
+  //   top: 10%;
+  //   left: 10%;
+  //   width: 100px;
+  // }
+
+  #kabo {
+    display: block;
+  }
   #home {
     .timer {
       width: 100%;
@@ -290,6 +317,13 @@ hr {
 }
 
 @media (min-width: 992px) {
+  #shape{
+    position: absolute;
+    top: 32%;
+    left: 16.5%;
+    width: 200px;
+  }
+
   #home {
     width: 100%;
     height: 100%;
